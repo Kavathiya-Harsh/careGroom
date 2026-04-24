@@ -11,16 +11,16 @@ import Footer from '../components/Footer';
 function LandingPage() {
   return (
     <>
-      <Navbar />
       <main>
+      <Navbar />
         <Hero />
         <Philosophy />
         <Collections />
         <Journal />
         <Testimonial />
         <CTA />
-      </main>
       <Footer />
+      </main>
     </>
   );
 }
