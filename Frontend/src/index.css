@@ -5,10 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --sage: #1F4A3F;
+  --sage: #1A362D;
   --mint: #4AB89A;
   --gold: #D4A56A;
-  --cream: #F5F2EB;
+  --cream: #FDFBF7;
+  --beige: #F4EFE6;
 }
 
 * {
@@ -54,4 +55,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-fade-in {
   animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
 }
