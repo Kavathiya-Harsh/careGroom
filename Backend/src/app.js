@@ -4,10 +4,11 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 const mongoSanitize = require('express-mongo-sanitize');
 const hpp = require('hpp');
-const errorHandler = require('./middleware/error');
+const errorHandler = require('./middleware/errorHandler');
 
 // Route files
 const auth = require('./routes/authRoutes');
+const dashboard = require('./routes/dashboardRoutes');
 
 const app = express();
 
@@ -17,10 +18,10 @@ app.use(cors()); // Enable CORS
 app.use(morgan('dev')); // Logging
 app.use(express.json()); // Parse JSON bodies
 app.use(mongoSanitize()); // Data sanitization against NoSQL injection
-app.use(hpp()); // Prevent HTTP Parameter Pollution
 
 // Mount routers
 app.use('/api/auth', auth);
+app.use('/api/dashboard', dashboard);
 
 // Basic route
 app.get('/', (req, res) => {
