@@ -19,6 +19,7 @@ import UserBookings from './pages/user/Bookings';
 import UserHistory from './pages/user/History';
 import UserFavorites from './pages/user/Favorites';
 import UserSettings from './pages/user/Settings';
+import UserServices from './pages/user/Services';
 import Explore from './pages/user/Explore';
 import Professionals from './pages/user/Professionals';
 import HowItWorks from './pages/user/HowItWorks';
@@ -63,6 +64,7 @@ function App() {
               <Route path="favorites" element={<UserFavorites />} />
               <Route path="settings" element={<UserSettings />} />
               <Route path="explore" element={<Explore />} />
+              <Route path="services" element={<UserServices />} />
               <Route path="how-it-works" element={<HowItWorks />} />
               <Route path="professionals" element={<Professionals />} />
               <Route path="artisan/:id" element={<ArtisanProfile />} />
