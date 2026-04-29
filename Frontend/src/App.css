@@ -1075,3 +1075,19 @@ main {
     grid-template-columns: 100px 1fr;
   }
 }
+
+/* ─── CUSTOM SCROLLBAR ─── */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(26, 54, 45, 0.05); 
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1A362D; 
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #D4A56A; 
+}
