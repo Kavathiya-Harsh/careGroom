@@ -9,10 +9,15 @@ import Journal from '../../components/common/Journal';
 import Testimonial from '../../components/common/Testimonial';
 import CTA from '../../components/common/CTA';
 import Footer from '../../components/common/Footer';
+import SEO from '../../components/common/SEO';
 
 function LandingPage() {
   return (
     <div className="landing-page">
+      <SEO 
+        title="Home" 
+        description="Experience premium grooming and care services with CareGroom. The elite marketplace for professionals and clients." 
+      />
       <Navbar />
       <main>
         <Hero />

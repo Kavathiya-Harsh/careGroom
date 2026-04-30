@@ -2,12 +2,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Award, Calendar, CheckCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import SEO from '../../components/common/SEO';
 
 const HowItWorks = () => {
   const navigate = useNavigate();
 
   return (
     <div className="w-full font-sans pb-0">
+      <SEO 
+        title="How It Works" 
+        description="Experience luxury grooming simplified. Learn how CareGroom brings elite professionals to your doorstep for a private sanctuary experience." 
+      />
       
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 pt-16 lg:pt-24 pb-20">
