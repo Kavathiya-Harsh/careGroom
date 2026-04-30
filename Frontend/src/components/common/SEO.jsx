@@ -15,7 +15,7 @@ const SEO = ({
   title, 
   description, 
   keywords, 
-  image = '/og-image.jpg', 
+  image = '/og-image.png', 
   url = window.location.href, 
   type = 'website' 
 }) => {
