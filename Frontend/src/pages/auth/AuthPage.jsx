@@ -5,6 +5,7 @@ import { auth, googleProvider } from '../../config/firebase';
 import { Eye, EyeOff, Mail, Lock, User, Smartphone, ArrowRight, ArrowLeft } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import spaAuthBg from '../../assets/spa_auth_bg.png';
+import SEO from '../../components/common/SEO';
 
 /* ═══════════════════════════════════════════════
    CareGroom Auth Page – Premium Split Layout
@@ -179,6 +180,10 @@ const AuthPage = () => {
 
   return (
     <div style={s.page} id="auth-page-root">
+      <SEO 
+        title={isLogin ? "Sign In" : "Join CareGroom"} 
+        description={isLogin ? "Sign in to your CareGroom account to manage your bookings." : "Create a CareGroom account and join the premium care marketplace."} 
+      />
       <style>{`
         input:-webkit-autofill,
         input:-webkit-autofill:hover, 

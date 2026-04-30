@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Star, ChevronDown, Check, SlidersHorizontal } from 'lucide-react';
-
 import { useNavigate } from 'react-router-dom';
+import SEO from '../../components/common/SEO';
 
 const Explore = () => {
   const navigate = useNavigate();
@@ -58,6 +58,10 @@ const Explore = () => {
 
   return (
     <div className="w-full pb-24 font-sans text-[#1F4A3F] pt-12">
+      <SEO 
+        title="Explore Artisans" 
+        description="Discover elite grooming and wellness professionals. Meticulously vetted artisans for your premium care needs." 
+      />
       
       {/* Hero Banner */}
       <motion.div 
