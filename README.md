@@ -22,6 +22,82 @@
 
 ---
 ### Figma Link : https://www.figma.com/design/XbIiYO9EJB0hDrNmzvaNrg/Untitled?node-id=1-7331&t=e2uZqzqw3143fD1s-1
+### Project Live link : https://care-groom.vercel.app/
+### Youtube Link : https://youtu.be/GF5e--MR9v8
+### Github Closed PR Link : https://github.com/codinggita/careGroom/pulls?q=is%3Apr+is%3Aclosed
+---
+
+### Problem Statement 
+
+## 📌 Detailed Problem Statement
+
+In the modern digital era, users expect fast, reliable, and convenient solutions for their everyday service needs, such as grooming, home care, and personal assistance. However, the current service ecosystem is highly fragmented and inefficient, creating significant challenges for both customers and service providers.
+
+## 🔍 Issues Faced by Customers
+
+1. **Lack of Trust and Verification**  
+   Many platforms do not ensure proper verification of service providers, making it difficult for users to trust the quality and safety of services offered.
+
+2. **Scattered and Unorganized Information**  
+   Users often have to browse multiple platforms or rely on offline references to find suitable professionals, which is time-consuming and inefficient.
+
+3. **Poor User Experience**  
+   Existing systems may have complex interfaces, unclear navigation, and slow performance, leading to frustration during service discovery and booking.
+
+4. **Lack of Transparency**  
+   Pricing, service details, and availability are often unclear or inconsistent, making it difficult for users to make informed decisions.
+
+5. **Inefficient Booking Process**  
+   Booking a service may involve multiple steps, calls, or manual coordination, reducing convenience and increasing the chances of errors.
+
+6. **No Centralized Management System**  
+   Users lack a unified platform to manage bookings, track service history, and maintain preferences like favorite professionals or saved locations.
+
+---
+
+## 🧑‍🔧 Issues Faced by Service Professionals
+
+1. **Limited Digital Presence**  
+   Many skilled professionals struggle to gain visibility due to the absence of a dedicated and accessible platform.
+
+2. **Difficulty in Customer Acquisition**  
+   Professionals often depend on word-of-mouth or local reach, limiting their ability to expand their client base.
+
+3. **Lack of Portfolio Showcase**  
+   There is no structured way to present their skills, experience, and services to potential customers.
+
+4. **Inefficient Booking and Scheduling**  
+   Managing appointments manually leads to scheduling conflicts, missed bookings, and reduced productivity.
+
+5. **Poor Customer Interaction Tools**  
+   Communication with clients is often unstructured and scattered across different channels, leading to inefficiencies.
+
+---
+
+## ⚠️ Overall System Gaps
+
+- Absence of a **centralized and integrated platform** for service discovery and booking  
+- Lack of **trust-building mechanisms** such as verified profiles and structured information  
+- No efficient way to **bridge the gap between demand (users) and supply (professionals)**  
+- Limited use of modern technology to improve **user experience and operational efficiency**
+
+---
+
+## 🎯 Need for a Solution
+
+There is a clear need for a **unified, user-friendly, and reliable platform** that:
+
+- Connects users with **verified professionals**  
+- Provides **transparent service details and pricing**  
+- Offers a **smooth and efficient booking experience**  
+- Enables users to **manage and track their service interactions**  
+- Empowers professionals with tools to **grow their visibility and manage their work efficiently**
+
+---
+
+## ✅ Proposed Solution
+
+**Care & Groom** is designed to address these challenges by creating a modern, scalable platform that bridges the gap between users and service providers. It ensures convenience, transparency, and trust while delivering a seamless digital experience for all stakeholders.
 ## 📌 Project Overview
 
 CareGroom solves a real problem: finding and booking trustworthy, local grooming professionals is fragmented and unreliable. The platform provides:
